@@ -1,0 +1,25 @@
+:root{
+    --Background:#004643;
+    --button:#f9bc60;
+    --button-test:#001e1d;
+    --paragraph:#abd1c6;
+
+    --stroke:#001e1d;
+    --main:#e8e4e6;
+    --tertiary:#e16162;
+   }
+
+.navbar{
+    padding: 1rem 2.5rem;
+    background-color: var(--sage);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link {
+    color:var(--white);
+    margin: 0 8px;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+ 
