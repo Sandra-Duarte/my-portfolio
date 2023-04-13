@@ -1,42 +1,53 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Style from "./Navbar.module.css";
+import React from 'react'
+import "./Navbar.css"
+import {AiFillCloseCircle} from "react-icons/ai"
+import {TbGridDots} from "react-icons/tb"
+
+
+
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  // const toggleMenu = () => {setIsOpen(!isOpen);
-  // };
-
   return (
-    <nav className={Style.navbar}>
-      <div className='logo-container d-flex'>
-    <div className='d-flex'>
-    <div className="navbar-image-container"></div>
-    <div className='navbar-heading-container'>
-   <h4>Tiny Leaf Tea house</h4>
-   </div>
-   </div>
-   <div className='hamburger-menu' onClick={() => setIsOpen(!isOpen)}>
-    {
-      isOpen ? (<img src={Close} alt= "close-tag"/>) :  (<img src={Menu}  alt= "meno-tag"/>)
-    }
+    <header className='header'>
+<div className='logoDiv'>
+  <h1 className='logo'> <a href='#Home'> AII.</a> </h1>
+</div>
 
-   </div>
-  </div>
-      <ul className={`list-items ${isOpen ? "show-items": ""} `}>
-        <li><Link to="/" className={ Style.nav_link}>Home</Link></li>
-        <li><Link to="/about" className={ Style.nav_link}>About</Link></li>
-        <li><Link to="/skills" className={ Style.nav_link}>Skills</Link></li>
-        <li><Link to="portfolio/" className={ Style.nav_link}>Portfolio</Link></li>
-        <li><Link to="/contact" >Contact</Link></li>
-      </ul>
-    </nav>
-  );
-};
+<div className='navBar'>
+<ul className='navLists'>
+<li className="navItem">
+  <a href='#about' className='navLink'>1.
+  <span>About</span></a>
+  </li>
+  <li className="navItem">
+  <a href='#skills' className='navLink'>1.
+  <span>Skills</span></a>
+  </li>
+  <li className="navItem">
+  <a href='#projects' className='navLink'>1.
+  <span>Projects</span></a>
+  </li>
+  <li className="navItem">
+  <a href='#contact' className='navLink'>1.
+  <span>Contact</span></a>
+  </li>
+<button className='btn'>  </button>
 
-export default Navbar;
+</ul>
+<div className='closeNavBar'>
+  <AiFillCloseCircle className ="icon"/>
+</div>
 
+</div>
+<div className='toggleNavBar'>
+  <TbGridDots className="icon"  />
+</div>
+
+    </header>
+  )
+}
+
+export default Navbar
 
 
 

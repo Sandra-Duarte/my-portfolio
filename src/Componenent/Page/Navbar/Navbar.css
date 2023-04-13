@@ -1,0 +1,65 @@
+:root {
+  --header: #15514c;
+  --Background: #004643;
+  --button: #f9bc60;
+  --button-test: #001e1d;
+  --paragraph: #abd1c6;
+
+  --stroke: #001e1d;
+  --main: #e8e4e6;
+  --tertiary: #e16162;
+
+  --headerHeight: 3rem;
+}
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: var(--button);
+  padding: 2rem;
+  z-index: 1000;
+  background-color: var(--header);
+}
+.logo a {
+  color: var(--paragraph);
+  font-weight: 600;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .navBar {
+    background: var(--header);
+    position: absolute;
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    padding: 1rem;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 2px 4px var(--header);
+    z-index: 1000;
+  }
+  .navLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 1rem 0;
+  }
+  .navItem {
+    padding: 1rem;
+ }
+
+
+  .navLink {
+    color: var(--paragraph);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+ &:houver {
+  color: var(--tertiary);
+}
+}
