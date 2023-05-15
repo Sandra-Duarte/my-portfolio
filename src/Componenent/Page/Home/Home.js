@@ -20,7 +20,8 @@ const Home = () => {
           </a>
           {/* <div className='lefIcons'></div> */}
           </div>
-        </div>
+          </div>
+
 
         <div className='container homeContainer'>
            <span className='introText'> Hi my name is,</span>
@@ -40,18 +41,20 @@ const Home = () => {
             <FiChevronsDown className ="iconD"/>
             </a>
             </div>
-           </div>
-           </div>
+            </div>
+
+
            {/* right div, whith email adress */}
            <div className="rightEmail">
-           <a href=" #https://sandra:sandjesus19@gmail.com" target='_blank'> sandjesus19@gmail</a>
+
+           <div>
+           <a href=" #https://sandra:sandjesus19@gmail.com" target='_blank'> sandjesus19@gmail.com</a>
            </div>
 
            <div className='line'></div>
+           </div>
 
-
-
-
+        </div>
 
     </section>
   )
