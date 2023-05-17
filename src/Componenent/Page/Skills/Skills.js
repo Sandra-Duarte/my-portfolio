@@ -4,6 +4,7 @@ import {IoLogoJavascript} from "react-icons/io"
 import {SiCss3} from "react-icons/si"
 import {SiHtml5} from "react-icons/si"
 import {FiFigma} from "react-icons/fi"
+import {BsFillBootstrapFill} from "react-icons/bs"
 
 
 
@@ -68,6 +69,13 @@ const Skills = () => {
           <FiFigma className= "icon"/>
         </div>
        <span className='skillName'>FiFigma</span>
+      </div>
+
+      <div className='singleSkill'>
+        <div className='iconBox flex'>
+          <BsFillBootstrapFill className= "icon"/>
+        </div>
+       <span className='skillName'>Bootstrap</span>
       </div>
 
      </div>
