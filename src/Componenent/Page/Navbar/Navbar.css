@@ -19,7 +19,8 @@
   height: var(--headerHeight);
   padding: 2rem;
   z-index: 1000;
-  background-color: var(--projectCardColor);
+
+  
 }
 
  .logo a{
@@ -86,13 +87,17 @@
             top: 1rem;
             right: 1.5rem;
           }
-             &:hover{
+           &:hover{color:var(--primaryColor)}
                .icon{
                 color:var(--primaryColor);
               }
-        }
+
 
          .activeNavbar{
          top:6rem;
+          }
+          .activeHeader{
+            background-color:var(--projectCardColor);
+            box-shadow:0 2px 4px rgba(1, 15, 29, 0.904);
           }
 };

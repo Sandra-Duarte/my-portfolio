@@ -3,6 +3,7 @@ import "./App.css"
 import Navbar from './Componenent/Page/Navbar/Navbar'
 import Home from './Componenent/Page/Home/Home'
 import About from './Componenent/Page/About/About'
+import Skills from './Componenent/Page/Skills/Skills'
 // import Skills from "./Componenent/Page/Skills/Skills"
 // import Project from './Componenent/Page/Project/Project'
 // import Footer from './Componenent/Page/Footer.js/Footer'
@@ -14,8 +15,8 @@ const App = () => {
     <Navbar />
     <Home />
     <About />
-    {/* <Skills/>
-    <Project/>
+    <Skills/>
+    {/* <Project/>
     <Contact/>
     <Footer/> */}
 

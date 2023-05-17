@@ -10,8 +10,9 @@
     --textColor: #dae4fb;
     --headerHeight: 3rem;
   }
-.about{}
+.about{padding: 2rem;}
      .sectionContainer{
+      padding: 2rem;
 
   }
   .textSection h4{
@@ -21,6 +22,7 @@
     letter-spacing: 1px;
     font-weight: 500;
     margin: auto;
+
   }
   .aboutBtn{
     display: flex;
@@ -84,5 +86,5 @@ a:hover{
 }
 
 .aboutImgDiv:hover.aboutImgDiv:before{
-
+height: 0%;
 }
