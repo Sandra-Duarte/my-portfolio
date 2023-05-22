@@ -5,13 +5,15 @@ import {SiCss3} from "react-icons/si"
 import {SiHtml5} from "react-icons/si"
 import {FiFigma} from "react-icons/fi"
 import {BsFillBootstrapFill} from "react-icons/bs"
+import {BsGithub} from "react-icons/bs"
+import "./Skills.css"
 
 
 
 
 const Skills = () => {
   return (
-    <section id = "skill" className='skills container'>
+    <section id = "skill" className='skillsContainer'>
   <div className='sectionTitle'>
   <span className='titleNumber'>02.</span>
   <h5 className='titleText'>Skills
@@ -66,9 +68,9 @@ const Skills = () => {
 
       <div className='singleSkill'>
         <div className='iconBox flex'>
-          <FiFigma className= "icon"/>
+          <BsGithub className= "icon"/>
         </div>
-       <span className='skillName'>FiFigma</span>
+       <span className='skillName'>Git</span>
       </div>
 
       <div className='singleSkill'>
