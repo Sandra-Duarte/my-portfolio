@@ -56,10 +56,11 @@
         background: var(--primaryColor);
         border: none;
         outline: none;
-       }
         &:hover {
           background-color: var(--primaryHouver);
         }
+       }
+
 
         a {
           font-size: 18px;

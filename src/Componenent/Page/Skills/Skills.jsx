@@ -6,7 +6,7 @@ import {SiHtml5} from "react-icons/si"
 import {FiFigma} from "react-icons/fi"
 import {BsFillBootstrapFill} from "react-icons/bs"
 import {BsGithub} from "react-icons/bs"
-import "./Skills.css"
+import "./Skills.scss"
 
 
 

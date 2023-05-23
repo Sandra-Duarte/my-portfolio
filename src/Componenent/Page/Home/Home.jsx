@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Home.css";
+import "./Home.scss";
 import {AiFillGithub} from "react-icons/ai"
 import {BsLinkedin } from "react-icons/bs"
 import {TbArrowBigRightLines} from "react-icons/tb"
