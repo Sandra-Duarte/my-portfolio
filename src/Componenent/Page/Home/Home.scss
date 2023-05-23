@@ -12,28 +12,20 @@
 }
 
 .home{
-  background-color: var(--BgColor);
-}
-   .homeContainer{
+  .homeContainer{
     padding: 4rem 1.5rem;
-    background-color: var(--BgColor);
-  }
-     .introText {
+
+      .introText {
+        font-size: 1.3rem;
       color: var(--primaryColor);
       font-weight: 600;
       letter-spacing: 1px;
     }
-
     .title {
       font-size: 3.3rem;
       font-weight: 600;
       color: var(--textColor);
       padding: 0.7rem 0;
-    }
-    p{
-      color:var(--paragraphColor);
-      padding: 0.7rem 0;
-
     }
     .subTitle {
       display: block;
@@ -50,8 +42,8 @@
       padding: 1rem 0;
       max-width: 600px;
     }
-    .lowerHomeSection
-       .contactBtn {
+    .lowerHomeSection{
+      .contactBtn {
         padding: 0.6rem 1rem;
         background: var(--primaryColor);
         border: none;
@@ -59,9 +51,6 @@
         &:hover {
           background-color: var(--primaryHouver);
         }
-       }
-
-
         a {
           font-size: 18px;
           font-weight: 600;
@@ -69,21 +58,22 @@
           align-items: center;
           color: var(--BgColor);
         }
-      .scrollDiv {
+       }
+       .scrollDiv {
         padding-top: 1rem;
         display: flex;
         text-align: center;
-      }
         .scroll {
           font-size: 1rem;
           color: var(--primaryColor);
         }
-        .iconD {
+        .icon {
           font-size: 1.3rem;
           margin-left: 0.6rem;
           color: var(--primaryColor);
           animation: move 0.5s infinite;
         }
+
         @keyframes move {
           0% {
             transform: translateY(5px);
@@ -101,4 +91,14 @@
             transform: translateY(5px);
           }
         }
+      }
+
+    }
+    }
+   }
+
+
+
+
+
 
