@@ -13,7 +13,7 @@ import "./Skills.scss"
 
 const Skills = () => {
   return (
-    <section id = "skill" className='skillsContainer'>
+    <section id = "skill" className='skills Container'>
   <div className='sectionTitle'>
   <span className='titleNumber'>02.</span>
   <h5 className='titleText'>Skills

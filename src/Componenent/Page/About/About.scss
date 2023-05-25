@@ -79,7 +79,7 @@
     position: absolute;
     border-radius: 50%;
     overflow: hidden;
-    transition: all .3rem;
+    transition: all 0.3s;
     mix-blend-mode: screen;
 }
 .aboutImgDiv:hover.aboutImgDiv::before{
