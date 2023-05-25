@@ -63,7 +63,7 @@ const Skills = () => {
         <div className='iconBox flex'>
           <FiFigma className= "icon"/>
         </div>
-       <span className='skillName'>FiFigma</span>
+       <span className='skillName'>Figma</span>
       </div>
 
       <div className='singleSkill'>
