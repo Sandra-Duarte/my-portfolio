@@ -1,12 +1,11 @@
 import React from 'react'
-import "./About.css"
+import "./About.scss"
 import {TbCloudDownload} from "react-icons/tb"
-import Sandra from "../img/Sandra.jpg"
+import Sandra from "../../../img/sandra.jpg"
 
 const About = () => {
   return (
-  <section id="about" className='about sectionContainer'>
- About Componenent
+  <section id="about" className='about section Container'>
  <div className='sectionTitle'>
   <span className='titleNumber'> 01.</span>
   <h5 className='titleText'> About Me
