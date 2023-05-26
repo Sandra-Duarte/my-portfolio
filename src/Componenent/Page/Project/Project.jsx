@@ -11,6 +11,8 @@ const Project = () => {
   </h5>
 
  </div>
+
+ <div className='projectContainer grid'></div>
     </section>
   )
 }
