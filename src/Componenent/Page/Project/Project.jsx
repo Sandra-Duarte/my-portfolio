@@ -1,6 +1,19 @@
 import React from 'react'
 import "./Project.scss"
 
+const date = [
+  {
+  id:1,
+  image:"",
+  liveLink: "",
+  github:"",
+  title:"",
+  descriptions:"",
+  }
+]
+
+
+
 const Project = () => {
   return (
     <section id="projects" className='projects container sections'>
@@ -12,7 +25,16 @@ const Project = () => {
 
  </div>
 
- <div className='projectContainer grid'></div>
+ <div className='projectContainer grid'>
+ {
+ date.map(({id, github, image, liveLink, title, descriptions }) =>{
+return(
+  <div key={id} className='singleProject'></div>
+)
+ })
+ }
+ </div>
+
     </section>
   )
 }
