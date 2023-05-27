@@ -27,9 +27,13 @@ const Project = () => {
 
  <div className='projectContainer grid'>
  {
- date.map(({id, github, image, liveLink, title, descriptions }) =>{
+ date.map(({id }) =>{
 return(
-  <div key={id} className='singleProject'></div>
+  <div key={id} className='singleProject'>
+  <div className='externalLinks flex'>
+    <div className=''> <a href="" target = "_blank"></a> </div>
+  </div>
+  </div>
 )
  })
  }
