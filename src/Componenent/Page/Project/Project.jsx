@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Project.scss"
+import {AiFillGithub} from "react-icons/ai"
 
 const date = [
   {
@@ -27,12 +28,23 @@ const Project = () => {
 
  <div className='projectContainer grid'>
  {
- date.map(({id }) =>{
+ date.map(({id, github }) =>{
 return(
   <div key={id} className='singleProject'>
   <div className='externalLinks flex'>
-    <div className=''> <a href="" target = "_blank"></a> </div>
-  </div>
+
+    <div className='githubIcon'>
+      <a href={github}target = "_blank">
+        <AiFillGithub className="icon"/>
+      </a>
+     </div>
+     <div className= "">
+      <a>
+
+      </a>
+
+     </div>
+     </div>
   </div>
 )
  })
