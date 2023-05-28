@@ -34,7 +34,7 @@ return(
   <div className='externalLinks flex'>
 
     <div className='githubIcon'>
-      <a href={github}target = "_blank">
+      <a href={github} target = "_blank" rel= "noreferrer" >
         <AiFillGithub className="icon"/>
       </a>
      </div>
