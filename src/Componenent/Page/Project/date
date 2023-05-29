@@ -1,4 +1,18 @@
+import React from "react";
+import "./Project.scss"
+
 const data =[{
+id:"1",
+image:"",
+liveLink:"",
+githup:"",
+titlle:"",
+desc:"",
+tect1:"",
+tect2:"",
+tect3:"",
+
+
 
 }];
 
