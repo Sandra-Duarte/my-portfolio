@@ -11,4 +11,12 @@
     --headerHeight: 3rem;
   }
 
-  
+  .projects{
+    .projectContainer{
+      margin-top: 1rem;
+      justify-content: space-between;
+      grid-template-columns: repeat(1 1fr);
+
+    }
+
+  }
