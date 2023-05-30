@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Project.scss"
 import {AiFillGithub} from "react-icons/ai"
-import {image} from "../../../img/image.jpg"
+import {} from "../../../TINYLEAF.jpg"
 
 const data =[{
   id:"1",
-  image:"",
+  image:"img",
   liveLink:"https://sandra-duarte-tiny-leaf-project.netlify.app/",
   githup:"https://github.com/Sandra-Duarte/Tiny-leaf-project",
   titlle:"Tiny-leaf-project",
@@ -30,7 +30,7 @@ const Project = () => {
 
  <div className='projectContainer grid'>
  {
- data.map(({id, github, image, titlle, desc, tect1, tect2, tect3 }) =>{
+ data.map(({id, github,  image, titlle, desc, tect1, tect2, tect3 }) =>{
 return(
   <div key={id} className='singleProject'>
   <div className='externalLinks flex'>
