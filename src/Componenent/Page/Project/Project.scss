@@ -13,9 +13,20 @@
 
   .projects{
     .projectContainer{
+      color: var(--paragraphColor);
       margin-top: 1rem;
       justify-content: space-between;
       grid-template-columns: repeat(1 1fr);
+
+     .singleProject{
+        display: grid;
+        gap: .5rem;
+        padding: 1.5rem 1rem;
+        border-radius: 10px;
+        height: 100%;
+        background: var(--projectCardColor);
+     }
+
 
     }
 
