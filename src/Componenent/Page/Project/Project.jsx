@@ -1,17 +1,19 @@
 import React from 'react'
 import "./Project.scss"
 import {AiFillGithub} from "react-icons/ai"
+import {image} from "../../../img/image.jpg"
 
-const date = [
-  {
-  id:1,
+const data =[{
+  id:"1",
   image:"",
-  liveLink: "",
-  github:"",
-  title:"",
-  descriptions:"",
-  }
-]
+  liveLink:"https://sandra-duarte-tiny-leaf-project.netlify.app/",
+  githup:"https://github.com/Sandra-Duarte/Tiny-leaf-project",
+  titlle:"Tiny-leaf-project",
+  desc:"",
+  tect1:"React",
+  tect2:"css",
+  tect3:"javaScript",
+  }];
 
 
 
@@ -28,7 +30,7 @@ const Project = () => {
 
  <div className='projectContainer grid'>
  {
- date.map(({id, github }) =>{
+ data.map(({id, github, image, titlle, desc, tect1, tect2, tect3 }) =>{
 return(
   <div key={id} className='singleProject'>
   <div className='externalLinks flex'>
@@ -38,12 +40,26 @@ return(
         <AiFillGithub className="icon"/>
       </a>
      </div>
-     <div className= "">
-      <a>
 
+     <div className='imgDiv'>
+      <a href="" target = "_blank" rel= "noreferrer" >
+        <img src={image} alt='titlle'/>
       </a>
-
      </div>
+     <div className='projectTitle'>
+     <h3>{titlle}</h3>
+     </div>
+     <div className='desc'>
+     {desc}
+     </div>
+
+    <div className="technologies flex">
+      <small>{tect1}</small>
+      <small>{tect2}</small>
+      <small>{tect3}</small>
+    </div>
+
+
      </div>
   </div>
 )
