@@ -69,6 +69,10 @@
         .technologies{
             gap: 0.5rem;
             justify-content: flex-end;
+            small{
+                color: var(--secundaryColor);
+                font-weight: 600;
+            }
         }
 
      }
