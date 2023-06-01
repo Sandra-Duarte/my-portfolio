@@ -7,6 +7,8 @@ import {FiFigma} from "react-icons/fi"
 import {BsFillBootstrapFill} from "react-icons/bs"
 import {BsGithub} from "react-icons/bs"
 import {TbBrandVscode} from "react-icons/tb"
+import {SiNetlify} from "react-icons/si"
+
 import "./Skills.scss"
 
 
@@ -86,6 +88,13 @@ const Skills = () => {
           <TbBrandVscode className= "icon"/>
         </div>
        <span className='skillName'>Vscode</span>
+      </div>
+
+      <div className='singleSkill'>
+        <div className='iconBox flex'>
+          <SiNetlify className= "icon"/>
+        </div>
+       <span className='skillName'>Netlify</span>
       </div>
 
      </div>
