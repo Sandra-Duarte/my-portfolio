@@ -6,6 +6,7 @@ import {SiHtml5} from "react-icons/si"
 import {FiFigma} from "react-icons/fi"
 import {BsFillBootstrapFill} from "react-icons/bs"
 import {BsGithub} from "react-icons/bs"
+import {TbBrandVscode} from "react-icons/tb"
 import "./Skills.scss"
 
 
@@ -78,6 +79,13 @@ const Skills = () => {
           <BsFillBootstrapFill className= "icon"/>
         </div>
        <span className='skillName'>Bootstrap</span>
+      </div>
+
+      <div className='singleSkill'>
+        <div className='iconBox flex'>
+          <TbBrandVscode className= "icon"/>
+        </div>
+       <span className='skillName'>Vscode</span>
       </div>
 
      </div>
