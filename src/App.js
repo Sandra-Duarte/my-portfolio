@@ -6,7 +6,7 @@ import Skills from './Componenent/Page/Skills/Skills'
 import About from './Componenent/Page/About/About'
 import Project from './Componenent/Page/Project/Project'
 // import Footer from './Componenent/Page/Footer.js/Footer'
-// import Contact from './Componenent/Page/Contact/Contact'
+import Contact from './Componenent/Page/Contact/Contact'
 
 const App = () => {
   return (
@@ -16,8 +16,8 @@ const App = () => {
    <About/>
     <Skills/>
     <Project/>
-    {/* <Contact/>
-    <Footer/> */}
+    <Contact/>
+    {/* <Footer/> */}
 
     </>
   )
