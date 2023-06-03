@@ -42,7 +42,7 @@ return(
      </div>
 
      <div className='imgDiv'>
-      <a href="" target = "_blank" rel= "noreferrer" >
+      <a href="#" target = "_blank" rel= "noreferrer" >
         <img src={image} alt='titlle'/>
       </a>
      </div>
