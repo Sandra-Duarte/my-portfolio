@@ -10,6 +10,12 @@ const Contact = () => {
       <div className='underline'><span></span>
       </div>
       </h5>
+      <div className='contactContainer grid'>
+        <div className='socialContacts grid'>
+          <h3>Talk to me</h3>
+        </div>
+
+      </div>
 
     </div>
     </section>
