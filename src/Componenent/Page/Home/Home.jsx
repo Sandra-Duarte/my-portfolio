@@ -47,7 +47,7 @@ const Home = () => {
            <div className="rightEmail">
 
            <div>
-           <a href=" #https://sandra:sandjesus19@gmail.com" target='_blank'> sandjesus19@gmail.com</a>
+           <a href=" #https://sandra:sandjesus19@gmail.com" target='_blank'> </a>
            </div>
 
            <div className='line'></div>
