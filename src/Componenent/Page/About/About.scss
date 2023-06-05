@@ -10,7 +10,7 @@
     --textColor: #dae4fb;
     --headerHeight: 3rem;
   }
-
+  @media screen and (max-width: 768px) {
 .about{
    .sectionContent{
     .textSection{
@@ -88,7 +88,7 @@
 
   }
 }
-
+  }
 
 
 

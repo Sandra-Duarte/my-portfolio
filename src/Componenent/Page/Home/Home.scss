@@ -10,7 +10,7 @@
   --textColor: #dae4fb;
   --headerHeight: 3rem;
 }
-
+@media screen and (max-width: 768px) {
 .home{
   .homeContainer{
     padding: 4rem 1.5rem;
@@ -96,7 +96,7 @@
     }
     }
    }
-
+  }
 
 
 
