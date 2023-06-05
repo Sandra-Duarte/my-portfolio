@@ -22,7 +22,7 @@ const Contact = () => {
               <h4>Instgram</h4>
               <span className='userName'></span>
               <div>
-                <a href='https://www.instagram.com/sandratduarte/'
+                <a href='https://www.instagram.com/sandratduarte/'/>
               </div>
 
             </div>
