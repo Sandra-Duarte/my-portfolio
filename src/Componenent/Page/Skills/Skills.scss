@@ -13,10 +13,10 @@
 
   .skills{
     color: var(--secundaryColor);
+  
     .skillsContainer{
         gap: 2rem 0;
-        padding: 1rem 0;
-
+        padding: 1.5rem;
         .skillGroup{
             .groupTitle{
                 color: var(--textColor);

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Contact.scss"
+import {GrInstagram} from "react-icons/gr"
 
 const Contact = () => {
   return (
@@ -13,6 +14,16 @@ const Contact = () => {
       <div className='contactContainer grid'>
         <div className='socialContacts grid'>
           <h3>Talk to me</h3>
+          <div className='cards grid'>
+            <div className='card'>
+              <div>
+                <GrInstagram className='icon'/>
+              </div>
+              <h4>Instgram</h4>
+              <span className='userName'></span>
+
+            </div>
+          </div>
         </div>
 
       </div>
