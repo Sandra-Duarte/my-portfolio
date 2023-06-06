@@ -17,7 +17,7 @@ const Contact = () => {
           <div className='cards grid'>
             <div className='card'>
               <div>
-                <GrInstagram className='icon'/>
+                <GrInstagram className='icon instaIcon'/>
               </div>
               <h4>Instgram</h4>
               <span className='userName'>sandratduarte</span>

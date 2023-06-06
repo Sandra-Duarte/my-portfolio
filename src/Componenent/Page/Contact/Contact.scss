@@ -29,6 +29,14 @@
          align-items: center;
          row-gap: 10px;
          padding: 1.5rem;
+         width: 240px;
+         background: var(--projectCardColor);
+         border-radius: 10px;
+         text-align: center;
+
+         .icon{
+          color: var(--primaryColor);
+         }
         }
       }
     }
