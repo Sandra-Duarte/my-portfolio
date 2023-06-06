@@ -10,4 +10,10 @@
     --textColor: #dae4fb;
     --headerHeight: 3rem;
   }
-  
+  .contact{
+    .contactContainer{
+      width: 100%;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  }

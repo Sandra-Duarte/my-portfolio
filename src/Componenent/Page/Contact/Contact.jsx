@@ -20,9 +20,9 @@ const Contact = () => {
                 <GrInstagram className='icon'/>
               </div>
               <h4>Instgram</h4>
-              <span className='userName'></span>
+              <span className='userName'>sandratduarte</span>
               <div>
-                <a href='https://www.instagram.com/sandratduarte/'/>
+                <a href='https://www.instagram.com/sandratduarte/' className='flex'></a>Send Menssage
               </div>
 
             </div>
