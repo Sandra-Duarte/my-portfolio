@@ -59,7 +59,7 @@ const Contact = () => {
         </div>
 
       </div>
-      <div className='form grid'> <h3>send me an email</h3>
+      <div className='form grid'> <h3>Send me an Email</h3>
       <form action=''>
       <input type='text' placeholder='Enter Your Name' />
         <input type='email' placeholder='Enter Your Email' />
