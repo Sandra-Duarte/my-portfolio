@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Contact.scss"
 import {GrInstagram} from "react-icons/gr"
+import {TbArrowBigRightLines}  from"react-icons/tb"
+import {AiFillLinkedin} from "react-icons/ai"
+import {BsTwitter} from "react-icons/bs"
 
 const Contact = () => {
   return (
@@ -20,10 +23,35 @@ const Contact = () => {
                 <GrInstagram className='icon instaIcon'/>
               </div>
               <h4>Instgram</h4>
-              <span className='userName'>sandratduarte</span>
+              <span className='userName'>@sandratduarte</span>
               <div>
-                <a href='https://www.instagram.com/sandratduarte/' className='flex'></a>Send Menssage
+                <a href='https://www.instagram.com/sandratduarte/' className='flex'>Menssage Send<TbArrowBigRightLines className='icon'/></a>
               </div>
+
+              <div className='card'>
+              <div>
+                <AiFillLinkedin className='icon instaIcon'/>
+              </div>
+              <h4>LinkedIn</h4>
+              <span className='userName'>@Sandra Duarte</span>
+              <div>
+                <a href='www.linkedin.com/in/sandra-duarte-b0b1719a' className='flex'>Menssage Send<TbArrowBigRightLines className='icon'/></a>
+              </div>
+
+            </div>
+
+
+            <div className='card'>
+              <div>
+                <BsTwitter className='icon instaIcon'/>
+              </div>
+              <h4>Twitter </h4>
+              <span className='userName'>@Sandra Duarte</span>
+              <div>
+                <a href="https://twitter.com/sandrad48238244" className='flex'>Menssage Send<TbArrowBigRightLines className='icon'/></a>
+              </div>
+
+            </div>
 
             </div>
           </div>
