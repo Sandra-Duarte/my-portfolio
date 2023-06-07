@@ -27,6 +27,7 @@ const Contact = () => {
               <div>
                 <a href='https://www.instagram.com/sandratduarte/' className='flex'>Menssage Send<TbArrowBigRightLines className='icon'/></a>
               </div>
+              </div>
 
               <div className='card'>
               <div>
@@ -53,7 +54,7 @@ const Contact = () => {
 
             </div>
 
-            </div>
+
           </div>
         </div>
 
