@@ -25,7 +25,7 @@ const Contact = () => {
               <h4>Instgram</h4>
               <span className='userName'>@sandratduarte</span>
               <div>
-                <a href='https://www.instagram.com/sandratduarte/' className='flex'>Menssage Send<TbArrowBigRightLines className='icon'/></a>
+                <a href='https://www.instagram.com/sandratduarte/' className='flex' >Menssage Send<TbArrowBigRightLines className='icon'/></a>
               </div>
               </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
               <h4>LinkedIn</h4>
               <span className='userName'>@Sandra Duarte</span>
               <div>
-                <a href='www.linkedin.com/in/sandra-duarte-b0b1719a' className='flex'>Menssage Send<TbArrowBigRightLines className='icon'/></a>
+                <a href='www.linkedin.com/in/sandra-duarte-b0b1719a/' className='flex'target='_blank'>Menssage Send<TbArrowBigRightLines className='icon'/></a>
               </div>
 
             </div>
@@ -49,7 +49,7 @@ const Contact = () => {
               <h4>Twitter </h4>
               <span className='userName'>@Sandra Duarte</span>
               <div>
-                <a href="https://twitter.com/sandrad48238244" className='flex'>Menssage Send<TbArrowBigRightLines className='icon'/></a>
+                <a href="https://twitter.com/sandrad48238244/" className='flex' >Menssage Send<TbArrowBigRightLines className='icon'/></a>
               </div>
 
             </div>
