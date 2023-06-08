@@ -64,6 +64,10 @@ const Contact = () => {
       <input type='text' placeholder='Enter Your Name' />
         <input type='email' placeholder='Enter Your Email' />
         <textarea name='' id='' placeholder='Enter Your Message' ></textarea>
+        <button className="formBtn" type ="submit" name= "submit">
+          Send Email
+
+        </button>
       </form>
 
       </div>
