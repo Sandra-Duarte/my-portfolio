@@ -70,5 +70,16 @@
         }
       }
       }
+
+      .form{
+        width: 100px;
+        justify-content: center;
+        margin: auto;
+
+        h3{
+          text-align: center;
+          color:var(--secundaryColor)
+        }
+      }
     }
   }
