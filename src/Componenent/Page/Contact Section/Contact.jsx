@@ -7,7 +7,7 @@ import {BsTwitter} from "react-icons/bs"
 
 const Contact = () => {
   return (
-    <section id="contact" className='contact section container'> Contact Component
+    <section id="contact" className='contact section container'> 
     <div className='sectionTitle'>
       <span className='titleNumber'>04</span>
       <h5 className='titleText'>Contact.
