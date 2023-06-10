@@ -110,12 +110,17 @@
             display: block;
             margin: auto;
             width: 90%;
-            border: none;
+            border-radius: 10px;
+            font-size: 18px;
             padding: 1rem 0;
+            font-weight:600;
             background: var(--primaryColor);
             color: var(--BgColor);
             font-weight: 600;
-            cursor: pointer;
+            cursor:pointer;
+            &:hover{
+              background: var(--primaryHouver);
+            }
           }
         }
       }
