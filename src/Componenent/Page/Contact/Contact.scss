@@ -106,6 +106,17 @@
           .textarea{
             height: 150px;
           }
+          .formBtn{
+            display: block;
+            margin: auto;
+            width: 90%;
+            border: none;
+            padding: 1rem 0;
+            background: var(--primaryColor);
+            color: var(--BgColor);
+            font-weight: 600;
+            cursor: pointer;
+          }
         }
       }
 
