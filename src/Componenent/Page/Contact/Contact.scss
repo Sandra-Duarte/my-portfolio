@@ -99,9 +99,12 @@
 
             &::placeholder{
               color: var(--secundaryColor);
-              opacity: 0.5;
+              opacity: .5;
             }
 
+          }
+          .textarea{
+            height: 150px;
           }
         }
       }
