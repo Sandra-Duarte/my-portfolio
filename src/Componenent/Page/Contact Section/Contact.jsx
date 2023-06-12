@@ -5,7 +5,24 @@ import {TbArrowBigRightLines}  from"react-icons/tb"
 import {AiFillLinkedin} from "react-icons/ai"
 import {BsTwitter} from "react-icons/bs"
 
+import emailjs from '@emailjs/browser';
+
 const Contact = () => {
+  const templateParams = {
+    name: 'James',
+    notes: 'Check this out!'
+};
+
+emailjs.send('<YOUR_SERVICE_ID>','<YOUR_TEMPLATE_ID>', templateParams, '<YOUR_PUBLIC_KEY>')
+	.then((response) => {
+	console.log('SUCCESS!', response.status, response.text);
+	}, (err) => {
+	console.log('FAILED...', err);
+	});
+
+
+
+  
   return (
     <section id="contact" className='contact section container'>
     <div className='sectionTitle'>
