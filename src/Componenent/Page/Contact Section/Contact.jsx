@@ -5,7 +5,7 @@ import {TbArrowBigRightLines}  from"react-icons/tb"
 import {AiFillLinkedin} from "react-icons/ai"
 import {BsTwitter} from "react-icons/bs"
 
-import emailjs from '@emailjs/browser';
+import emailjs, { send } from '@emailjs/browser';
 
 const Contact = () => {
   const templateParams = {
@@ -13,7 +13,7 @@ const Contact = () => {
     notes: 'Check this out!'
 };
 
-emailjs.send('<YOUR_SERVICE_ID>','<YOUR_TEMPLATE_ID>', templateParams, '<YOUR_PUBLIC_KEY>')
+emailjs.send('<service_ixtj1lj>','<sandjesus19@gmail.com>', templateParams, '<LmlgwrVHn1NrI41S3>')
 	.then((response) => {
 	console.log('SUCCESS!', response.status, response.text);
 	}, (err) => {
@@ -22,7 +22,7 @@ emailjs.send('<YOUR_SERVICE_ID>','<YOUR_TEMPLATE_ID>', templateParams, '<YOUR_PU
 
 
 
-  
+
   return (
     <section id="contact" className='contact section container'>
     <div className='sectionTitle'>
@@ -80,7 +80,7 @@ emailjs.send('<YOUR_SERVICE_ID>','<YOUR_TEMPLATE_ID>', templateParams, '<YOUR_PU
 
       <div className='form grid'>
       <h3>Send me an Email</h3>
-      <form action=''>
+      <form action='' ref={send} onSubmit={templateParams}>
       <input type='text' placeholder='Enter Your Name' />
         <input type='email' placeholder='Enter Your Email' />
         <textarea name='' id='' placeholder='Enter Your Message' ></textarea>
