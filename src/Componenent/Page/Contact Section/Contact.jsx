@@ -14,6 +14,7 @@ const Contact = () => {
       <div className='underline'><span></span>
       </div>
       </h5>
+      </div>
       <div className='contactContainer grid'>
         <div className='socialContacts grid'>
           <h3>Talk to me</h3>
@@ -56,10 +57,12 @@ const Contact = () => {
 
 
           </div>
-        </div>
+          </div>
 
-      </div>
-      <div className='form grid'> <h3>Send me an Email</h3>
+
+
+      <div className='form grid'>
+      <h3>Send me an Email</h3>
       <form action=''>
       <input type='text' placeholder='Enter Your Name' />
         <input type='email' placeholder='Enter Your Email' />
@@ -72,6 +75,8 @@ const Contact = () => {
 
       </div>
     </div>
+
+
     </section>
   )
 }
