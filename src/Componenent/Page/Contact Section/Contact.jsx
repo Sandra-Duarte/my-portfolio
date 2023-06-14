@@ -12,6 +12,8 @@ const Contact = () => {
     name: 'James',
     notes: 'Check this out!'
 };
+const sendEmail = (e) => {
+  e.preventDefault();
 
 emailjs.send('<service_ixtj1lj>','<sandjesus19@gmail.com>', templateParams, '<LmlgwrVHn1NrI41S3>')
 	.then((response) => {
@@ -20,7 +22,7 @@ emailjs.send('<service_ixtj1lj>','<sandjesus19@gmail.com>', templateParams, '<Lm
 	console.log('FAILED...', err);
 	});
 
-
+}
 
 
   return (
@@ -80,7 +82,7 @@ emailjs.send('<service_ixtj1lj>','<sandjesus19@gmail.com>', templateParams, '<Lm
 
       <div className='form grid'>
       <h3>Send me an Email</h3>
-      <form action='' ref={send} onSubmit={templateParams}>
+      <form onSubmit={sendEmail}>
       <input type='text' placeholder='Enter Your Name' />
         <input type='email' placeholder='Enter Your Email' />
         <textarea name='' id='' placeholder='Enter Your Message' ></textarea>
@@ -98,4 +100,4 @@ emailjs.send('<service_ixtj1lj>','<sandjesus19@gmail.com>', templateParams, '<Lm
   )
 }
 
-export default Contact
+export default Contact;
