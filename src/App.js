@@ -5,7 +5,7 @@ import Home from './Componenent/Page/Home Section/Home'
 import Skills from './Componenent/Page/Skills Section/Skills'
 import About from './Componenent/Page/About Section/About'
 import Project from './Componenent/Page/Project Section/Project'
-// import Footer from './Componenent/Page/Footer.js/Footer'
+import Footer from './Componenent/Page/Footer.js/Footer'
 import Contact from './Componenent/Page/Contact Section/Contact'
 
 const App = () => {
@@ -17,7 +17,7 @@ const App = () => {
     <Skills/>
     <Project/>
     <Contact/>
-    {/* <Footer/> */}
+    <Footer/>
 
     </>
   )
