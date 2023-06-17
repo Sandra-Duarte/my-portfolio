@@ -17,4 +17,9 @@
     background: var(--projectCardColor);
     margin-top: 1rem;
     padding: 1rem 0;
+
+    span{
+        text-align: center;
+        color: var(--secundaryColor);
+    }
   }
