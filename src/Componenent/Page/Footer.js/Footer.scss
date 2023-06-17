@@ -10,3 +10,11 @@
     --textColor: #dae4fb;
     --headerHeight: 3rem;
   }
+
+  .footer{
+    width: 100%;
+    text-align: center;
+    background: var(--projectCardColor);
+    margin-top: 1rem;
+    padding: 1rem 0;
+  }
