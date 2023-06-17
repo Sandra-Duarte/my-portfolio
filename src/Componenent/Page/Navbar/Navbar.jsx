@@ -51,7 +51,7 @@ window.addEventListener("scroll", addBg)
   <a href='#contact' className='navLink'>
   <span className='headerNumber'>4.</span>Contact</a>
   </li>
-<button className='btn'> <a href="">Resume</a> </button>
+<button className='btn'> <a href="Sandra UML.docx" download="Sandra UML.docx">Resume</a> </button>
 
 
 </ul>

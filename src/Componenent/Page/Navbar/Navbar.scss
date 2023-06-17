@@ -98,4 +98,25 @@
             background-color:var(--projectCardColor);
             box-shadow:0 2px 4px rgba(1, 15, 29,0.904);
           }
+// MEDIA QUERIES------------------------->
 
+@media screen and (min-width:769px){
+.toggleNavBar, .closeNavBar{
+  display: none;
+}
+
+.header{
+  .navLists{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 1rem;
+
+    .navItem{
+      padding: 0 1rem;
+      
+    }
+  }
+}
+}
