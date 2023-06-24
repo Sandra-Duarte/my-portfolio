@@ -1,17 +1,17 @@
 
 import "./Project.scss"
 
-// const data =[{
-// id:"1",
-// image:"",
-// liveLink:"https://sandra-duarte-tiny-leaf-project.netlify.app/",
-// githup:"https://github.com/Sandra-Duarte/Tiny-leaf-project",
-// titlle:"Tiny-leaf-project",
-// desc:"",
-// tect1:"React",
-// tect2:"css",
-// tect3:"javaScript",
-// }];
+const data =[{
+id:"1",
+image:"",
+liveLink:"https://sandra-duarte-tiny-leaf-project.netlify.app/",
+githup:"https://github.com/Sandra-Duarte/Tiny-leaf-project",
+titlle:"Tiny-leaf-project",
+desc:"",
+tect1:"React",
+tect2:"css",
+tect3:"javaScript",
+}];
 
 const data =[{
     id:"1",
