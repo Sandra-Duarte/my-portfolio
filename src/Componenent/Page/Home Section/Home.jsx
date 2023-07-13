@@ -46,16 +46,17 @@ const Home = () => {
 
            {/* right div, whith email adress */}
            <div className="rightEmail">
-
-           <div>
-           <a href=" #https://sandra:sandjesus19@gmail.com" target='_blank'> </a>
+          <div>
+           <div className='emailAddress'>
+           <a href=" #https://sandra:sandjesus19@gmail.com" target='_blank'>sandjesus19@gmail.com
+           </a>
            </div>
 
            <div className='line'></div>
+
            </div>
-
+           </div>
         </div>
-
     </section>
   )
 }

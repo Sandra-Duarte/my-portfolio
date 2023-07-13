@@ -144,6 +144,9 @@
     display: block;
     position: fixed;
     .icon{
+      color: var(--secundaryColor);
+    }
+    a{
       font-weight: 600;
       color:var(--secundaryColor);
     }
@@ -159,6 +162,7 @@
     left: 5%;
     bottom: 0;
     .socials{
+      gap: 1rem;
       a{
         color: var(--textColor);
         &:hover{
