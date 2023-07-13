@@ -126,12 +126,61 @@
     .scrollDiv{
       padding-top: 1.5rem;
       .icon{
-        font-size: 1.5rem;
+        font-size:2.5rem;
       }
     }
   }
 }
 }
+
+@media screen and (min-width:770px){
+  .home{
+    .homeContainer{
+      padding: 5rem 1.5rem;
+      width: 70%;
+      margin: auto;
+    }
+   .leftIcons, .rightEmail{
+    display: block;
+    position: fixed;
+    .icon{
+      font-weight: 600;
+      color:var(--secundaryColor);
+    }
+    .line{
+      margin: auto;
+      content: "";
+      background: var(--secundaryColor);
+      height: 100px;
+      width: 1px;
+    }
+   }
+   .leftIcons{
+    left: 5%;
+    bottom: 0;
+    .socials{
+      a{
+        color: var(--textColor);
+        &:hover{
+          color: var(--primaryColor);
+        }
+      }
+    }
+   }
+   .rightEmail{
+    right: 0;
+    bottom: 0;
+    .emailAddress{
+     transform: rotate(90deg) translate(-90px, 0px);
+
+     a{
+      letter-spacing: 1px;
+     }
+    }
+   }
+  }
+  }
+
 
 
 

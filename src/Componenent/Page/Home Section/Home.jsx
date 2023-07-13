@@ -18,7 +18,8 @@ const Home = () => {
           <a href='#linkedin' target='_blank'>
             <BsLinkedin className ="icon"/>
           </a>
-          {/* <div className='lefIcons'></div> */}
+          <div className='line'></div>
+          <div className='lefIcons'></div>
           </div>
           </div>
 
