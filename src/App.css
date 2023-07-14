@@ -186,7 +186,11 @@ body{
     margin: auto;
   }
 }
-
+@media screen and (min-width:960px){
+  .section{
+   padding: 6rem 0 4rem;
+  }
+}
 
 
 
