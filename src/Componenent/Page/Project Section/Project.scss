@@ -82,4 +82,12 @@
 
   }
 
-  
+     // MEDIA QUERIES------------------------->
+     @media screen and (min-width:600px){
+        .projects{
+            .projectContainer{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+     }
+
