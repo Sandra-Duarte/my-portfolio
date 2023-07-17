@@ -123,11 +123,8 @@
 
      @media screen and (min-width:1248px){
         .projects{
-            width: 70%;
-            margin: auto;
-            .projectContainer{
-                grid-template-columns: repeat(2,1fr);
-            }
+          padding-left: 2rem;
+          padding-right: 2rem;
         }
      }
 
