@@ -85,9 +85,21 @@
      // MEDIA QUERIES------------------------->
      @media screen and (min-width:600px){
         .projects{
+            width: 70%;
+            margin: auto;
             .projectContainer{
                 grid-template-columns: repeat(2,1fr);
             }
         }
      }
+
+     @media screen and (min-width:769px){
+        .projects{
+            .projectContainer{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+     }
+
+     
 
