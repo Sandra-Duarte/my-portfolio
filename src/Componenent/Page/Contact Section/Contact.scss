@@ -133,4 +133,11 @@
   }
 
        // MEDIA QUERIES------------------------->
-       
+
+   @media screen and (min-width:640px){
+    .cards{
+      justify-content: center;
+      grid-template-columns: repeat(2, 1);
+    }
+
+   }
