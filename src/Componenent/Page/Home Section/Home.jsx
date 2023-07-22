@@ -28,8 +28,8 @@ const Home = () => {
            <span className='introText'> Hi my name is,</span>
            <h1 className='title'> Sandra Duarte </h1>
            <span className='subTitle'> Front-end Web Developer </span>
-           <p className='homeParagraph'>Recently completing Code Your Future  10-month Front end Web Developer course, I am now seeking a dynamic company that values diversity and inclusivity, providing me with an opportunity to make a meaningful impact with my skills.</p>
-           <p className='homeParagraph'>I am enthusiastic about broadening my knowledge across various domains, including software development, operations, network, and infrastructure. I am excited to explore new technologies and implement them to enhance our teams ability to deliver products with exceptional speed and efficiency.</p>
+           <p className='homeParagraph'>I am a recent coding bootcamp graduate looking for their first role in tech!</p>
+
 
            <div className='lowerHomeSection'>
             <button className='contactBtn'>
