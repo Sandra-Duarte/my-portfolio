@@ -28,7 +28,7 @@ const Home = () => {
            <span className='introText'> Hi my name is,</span>
            <h1 className='title'> Sandra Duarte </h1>
            <span className='subTitle'> Front-end Web Developer </span>
-           <p className='homeParagraph'>I am a recent coding bootcamp graduate looking for their first role in tech!</p>
+           <p className='homeParagraph'>As a recent graduate of a coding bootcamp, I am eager to secure my first role in the tech industry!</p>
 
 
            <div className='lowerHomeSection'>
