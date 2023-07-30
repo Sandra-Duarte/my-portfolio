@@ -1,3 +1,4 @@
+
 import React from 'react'
 import "./About.scss"
 import {TbCloudDownload} from "react-icons/tb"
@@ -31,6 +32,7 @@ const About = () => {
 </div>
 
   </section>
+
   )
 }
 
