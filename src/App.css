@@ -68,12 +68,13 @@ img{
   font-size: 1.1rem;
   font-weight: 600;
   position: relative;
-  color: var(--button);
+  color: var(--primaryColor);
   background: transparent;
 }
 .btn::before{
   content:"";
   height: 100%;
+  width: 0%;
   background:var(--primaryColor);
   position:absolute;
   top: 0;
@@ -176,7 +177,7 @@ img{
 
 body{
   background-color:var(--BgColor);
-  color: var(--main);
+  color: white;
 
 }
 

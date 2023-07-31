@@ -30,7 +30,7 @@ window.addEventListener("scroll", addBg)
   return (
     <header className={activeHeader}>
 <div className='logoDiv'>
-  <h1 className='logo'> <a href='#home'> AII.</a> </h1>
+  <h1 className='logo'> <a href='#home'>Ai.</a> </h1>
 </div>
 
 <div className={active}>

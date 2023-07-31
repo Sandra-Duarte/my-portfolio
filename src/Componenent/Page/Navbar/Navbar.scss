@@ -34,7 +34,7 @@
       height: max-content;
       width: 80%;
       border-radius: 1rem;
-      padding: 1rem;
+      padding: 2rem;
       top: -100rem;
       left: 50%;
       transform: translate(-50%);
@@ -54,7 +54,7 @@
           padding: 1rem 0;
           .navLink{
             color: var(--textColor);
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             font-weight: 600;
             &:hover{
               color:var(--primaryColor);
@@ -79,7 +79,7 @@
       position: absolute;
       top: 1rem;
       right: 1.5rem;
-      // color:var(--primaryColor);
+      color:var(--primaryColor);
 
       &:hover{
         .icon{
@@ -116,7 +116,7 @@
     padding: 0 1rem;
 
     .navItem{
-      padding: 0 1rem;
+      padding:1rem 0;
 
       .navLink{
         color: var(--textColor);
