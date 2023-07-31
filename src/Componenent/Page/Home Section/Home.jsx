@@ -4,6 +4,7 @@ import {AiFillGithub} from "react-icons/ai"
 import {BsLinkedin } from "react-icons/bs"
 import {TbArrowBigRightLines} from "react-icons/tb"
 import {FiChevronsDown} from "react-icons/fi"
+import {AiFillTwitterCircle} from "react-icons/ai"
 
 
 
@@ -18,6 +19,10 @@ const Home = () => {
           <a href='#linkedin' target='_blank'>
             <BsLinkedin className ="icon"/>
           </a>
+          <a href='#twitter' target='_blank'>
+            <AiFillTwitterCircle className ="icon"/>
+          </a>
+
           <div className='line'></div>
           <div className='lefIcons'></div>
           </div>
