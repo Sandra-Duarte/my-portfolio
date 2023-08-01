@@ -18,7 +18,7 @@ const About = () => {
   <div className='textSection'>
     <h4> Recently completing Code Your Future comprehensive 10-month Front end Web Developer course, I am now seeking a dynamic company that values diversity and inclusivity, providing me with an opportunity to make a meaningful impact with my skills.
       <br/>
-      React is also an open-source JavaScript front-end framework for creating interactive user interfaces. React allows developers to create reusable components that, when combined, form the entire application user interface.
+
     </h4>
     <div className='aboutBtn'>
       <a href = "Sandra Duarte.pdf" download="Sandra Duarte.pdf" className="flex">
