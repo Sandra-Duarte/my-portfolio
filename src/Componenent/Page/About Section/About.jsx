@@ -17,7 +17,6 @@ const About = () => {
 <div className='sectionContent grid'>
   <div className='textSection'>
     <h4> Recently completing Code Your Future comprehensive 10-month Front end Web Developer course, I am now seeking a dynamic company that values diversity and inclusivity, providing me with an opportunity to make a meaningful impact with my skills.
-      <br/>
 
     </h4>
     <div className='aboutBtn'>
