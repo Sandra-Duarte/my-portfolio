@@ -24,6 +24,8 @@ const About = () => {
         Download CV<TbCloudDownload className="icon"/>
       </a>
     </div>
+
+    fafafafa
  </div>
  <div className='aboutImgDiv'>
   <img src={Sandra} alt="sandra" className='aboutImg'/>
