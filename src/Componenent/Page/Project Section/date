@@ -15,7 +15,7 @@ import "./Project.scss"
 
 const data =[{
     id:"1",
-    image:"img",
+    image:"imgage",
     liveLink:"https://sandra-duarte-tiny-leaf-project.netlify.app/",
     githup:"https://github.com/Sandra-Duarte/Tiny-leaf-project",
     titlle:"Tiny-leaf-project",
